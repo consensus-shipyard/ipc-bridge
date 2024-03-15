@@ -5,6 +5,12 @@ import TokenIcon from '@/assets/icons/token.png'
 
 const ExampleItems = [
   {
+    title: 'Fund Token based Subnet with Axelar ERC20 Token',
+    description: 'Bridge a Mumbai based token to Filecoin Calibration and IPC subnet using Axelar',
+    image: TokenIcon.src,
+    url: '/examples/axelar-token',
+  },
+  {
     title: 'Manage Linked USDC Tokens',
     description: 'Send axelarUSDC tokens from Filecoin Calibration to the IPC Subnet using IPC Linked Token',
     image: EtherIcon.src,
@@ -21,12 +27,6 @@ const ExampleItems = [
     description: 'Fund and withdraw native tFIL from IPC subnet.',
     image: EtherIcon.src,
     url: '/examples/deposit-native',
-  },
-  {
-    title: 'Fund Token based Subnet with Axelar ERC20 Token (TODO)',
-    description: 'Bridge a Mumbai based token to Filecoin Calibration and IPC subnet using Axelar',
-    image: TokenIcon.src,
-    url: '/examples/axelar-token',
   },
 ]
 
