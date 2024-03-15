@@ -53,3 +53,5 @@ subgraph/node_modules
 subgraph/build
 
 *.un~
+
+*.swp
