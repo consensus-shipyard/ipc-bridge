@@ -94,6 +94,13 @@ export default function SendTokenUp() {
     }
   }, [txSuccess, txError])
 
+  return (
+    <div className='flex-column align-center'>
+      <H1 title='Withdraw Linked ERC-20 Token' />
+      <div>Under Construction</div>
+    </div>
+  )
+
   if (chainId == 2443544213400835) {
     // TODO get from config
     return (
